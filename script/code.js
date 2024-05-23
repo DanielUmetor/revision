@@ -111,9 +111,9 @@ HOISTING
 // let addition = (numb1, numb2) =>{
   //  console.log(numb1 + numb2);
 // }
-let data = [9, 'Peter', 'Sipho', 3, 4, 11, 'Sarah']
+let data = [9, 'Peter', 'Sipho', 3, 4, 11, 'Sarah', 'Sisi']
 
-console.table(data) 
+// console.table(data) 
 
 // for (let i=0; i < data.length; i++) {   // data.length displays the size of the array
  //   console.log(data[i]);
@@ -121,11 +121,24 @@ console.table(data)
 
 // if you have an array(collection of data), make use of while loop
 
-// make use of forEach and display all names that start with 
-data.forEach((value) => {
-    
-})
+// make use of forEach and display all names that start with 'S'
+// data.forEach((person) => {
+  //   if ((typeof person == 'string') && (person.toLowerCase()[0] == 's'))
+  //      console.log(person);
+// })
 
+
+
+let sentence = 'I love programming'
+// String size
+let numberofCharacters = sentence.length
+console.log(`Number of characters: ${numberofCharacters}`);
+// First character
+console.log(`First character: ${sentence[0]}`);
+// Last character 
+console.log(`Last character: ${sentence[numberofCharacters - 1]}`);
+// Check if the first character start with l vs i
+console.log(`Start with I? ${sentence.startsWith('I')}`);
 
 
 
